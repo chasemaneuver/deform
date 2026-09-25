@@ -1,4 +1,4 @@
-function programma_letteraM
+function Funzione_DeForm
 % Codice MATLAB per animare la deformazione della lettera 'M' con controlli interattivi
 % Visualizza contemporaneamente la configurazione originale, le piccole deformazioni e le grandi deformazioni
 
@@ -208,7 +208,7 @@ valueTexts.epsilon_zz = uicontrol('Style', 'text', 'Units', 'normalized', ...
 %% Visualizzazione Iniziale
 
 % Chiamata iniziale alla funzione di aggiornamento
-updatePlot();
+updatePlot([], []);
 
 % Funzione di Aggiornamento del Plot
 
