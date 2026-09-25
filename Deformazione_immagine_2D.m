@@ -8,7 +8,17 @@ clear; clc;
 %% Caricamento dell'Immagine
 
 % Caricamento dell'immagine
-I = imread('C:\Users\miche\Desktop\nasa_logo.png');  % Sostituisci con il tuo file immagine
+% Selezione portabile dell'immagine
+[image_file, image_folder] = uigetfile( ...
+    {'*.png;*.jpg;*.jpeg;*.bmp;*.tif;*.tiff', ...
+     'File immagine (*.png, *.jpg, *.jpeg, *.bmp, *.tif, *.tiff)'}, ...
+    'Seleziona l''immagine da deformare');
+
+if isequal(image_file, 0)
+    error('Nessuna immagine selezionata. Esecuzione annullata.');
+end
+
+I = imread(fullfile(image_folder, image_file));
 
 % Conversione dell'immagine in double per l'interpolazione
 I = im2double(I);
