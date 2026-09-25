@@ -1,7 +1,7 @@
 # From Deformation Theory to Interactive Visualization: Development of an Application for Engineering Education
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22967116.svg)](https://doi.org/10.5281/zenodo.22967116)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22968007.svg)](https://doi.org/10.5281/zenodo.22968007)
 
 This repository contains the MATLAB codes developed for the academic project *From Deformation Theory to Interactive Visualization: Development of an Application for Engineering Education*, carried out as part of the final coursework requirements for Aerospace Engineering at Politecnico di Milano.
 
