@@ -131,7 +131,7 @@ An embedded preview of the letter-**M** deformation animation is available in [`
 
 If you use the codes, figures, or results contained in this repository, please cite the associated paper after publication:
 
-> M. Vrapi, "From Deformation Theory to Interactive Visualization: Development of an Application for Engineering Education," Zenodo, 2026. doi: `https://doi.org/10.5281/zenodo.22967116`.
+> M. Vrapi, "From Deformation Theory to Interactive Visualization: Development of an Application for Engineering Education," Zenodo, 2026. doi: `https://doi.org/10.5281/zenodo.22968007`.
 
 ## License
 
